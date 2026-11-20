@@ -1,0 +1,39 @@
+# 비밀 설정
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# 파이썬 가상환경과 캐시
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# 빌드 결과와 로그
+build/
+dist/
+*.egg-info/
+*.log
+logs/
+
+# 개발 도구와 임시 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 실행 결과
+output/*
+!output/.gitkeep
